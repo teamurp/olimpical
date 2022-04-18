@@ -12,7 +12,7 @@
 </head>
 <body class="bg-dark">
 	<?php 
-		$con = mysqli_connect('Jino.ru', 'j32021264', '4uTXa8bYv', 'j26533641');
+		$con = mysqli_connect('127.0.0.1', 'root', '', 'mpit');
 		$query = mysqli_query($con, "SELECT * FROM olymp");
 		$string = $query->fetch_assoc();
 		$string2 = $query->fetch_assoc();
